@@ -1,0 +1,16 @@
+{
+    "radcheck": {
+	"Cleartext-Password": "Duh", 
+	"Lab-Challenge": "If set - user will be challenged to enter this password",
+	"Lab-PW-Expired": "Boolean integer - if set - require password change (mschap2 only)",
+    	"Lab-Delay": "Delay response in seconds"
+    },
+    "radreply": {
+	"Class" : "Generic string attribute. Often used for group (25)",
+	"Reply-Message": "Custom reply (18)",
+	"Framed-IP-Address": "Office Mode IP",
+        "Framed-IP-Netmask": "Office Mode Netmask",
+	"Vendor-SuperUser-Access" : "Boolean integer - vendor SuperUser",
+	"Vendor-User-Role" : "String - vendor user role (e.g. adminRole)"
+    }
+}

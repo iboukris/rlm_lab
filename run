@@ -1,0 +1,3 @@
+#!/bin/bash
+
+make && make install && radiusd -X |grep --color -iE 'lab|oups|$'
